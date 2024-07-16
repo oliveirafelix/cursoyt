@@ -1,0 +1,54 @@
+/* Estilos da Aula 05 */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.topo {
+    background: #222;
+}
+
+/* nav ul li a */
+/* ul com id links */
+#links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* ul li */ 
+#links li {
+    list-style: none;
+    background: #222;
+    padding: 1rem 0;
+    /* border: 1px solid #000; */
+}
+
+#links li a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #ccc;
+    /* border: 1px solid red; */
+}
+
+/* Todos os links */
+#links a {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Quando passa a seta do mouse por cima */
+#links a:hover {
+    background: #444;
+    color: white;
+}
+
+/* 
+a link geral
+a:link
+a:active Último Link clicado
+a:visited Link que já foi clicado, visitado
+*/
