@@ -5,15 +5,15 @@
     margin: 0;  /* margem */
     padding: 0; /* espacamento interno ou espansao */
 }
- 
+
 #topo {
     background: #222;
 }
- 
+
 #corpo {
     background: #444;
 }
- 
+
 #artigo01 {
     border: 1px solid black;
     width: 1000px;
@@ -31,14 +31,14 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
- 
+
 #artigo03 {
     width: 200px;
     height: 100px;
     background-image: url("../images/fundo800x600.jpg");
     background-repeat: no-repeat;
 }
- 
+
 #rodape {
     background: #666;
 }
