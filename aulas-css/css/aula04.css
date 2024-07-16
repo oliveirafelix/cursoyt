@@ -37,6 +37,14 @@
     background: linear-gradient(50deg, rgba(110, 208, 76, 1) 0%, rgba(232, 255, 0, 1) 100%);
 }
 
+#artigo02 {
+    border: 2px dashed #000;
+}
+
+#artigo03 {
+    border: 2px dotted #000;
+}
+
 #rodape {
     width: 100%;
     height: 150px;
