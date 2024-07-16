@@ -10,7 +10,7 @@
 body {
     margin-right: 10px;
     margin-left: 10px;
-    background-image: url("../images/fundo01.jpeg");
+    background-image: url(../images/fundo01.jpeg);
     background-attachment: fixed;
 }
 
