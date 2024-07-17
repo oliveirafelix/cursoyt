@@ -9,14 +9,23 @@
     width: 100%;
 }
 
+h1 {
+        color: #ccc;
+        background-color: #222;
+        height: 50px;
+        padding: .4rem;
+        width: 100%;
+}
+
+
 #links {
     background-color: #222;
     display: flex;
-    width: 100%;
+    width: 50%;
     position: absolute;
-    justify-content: center;
+    top: 0;
+    right: 0;
     justify-content: flex-end;
-    align-items: ;
 }
 
 li {
