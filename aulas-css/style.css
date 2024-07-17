@@ -1,0 +1,29 @@
+* {
+    font-family: Ariam   l, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#topo {
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+#corpo {
+    background: rgb(68, 68, 68);
+    width: 1000px;
+    height: 400px;
+}
+
+#artigo01 {
+    
+}
+
+#artigo02 {
+
+}
+
+#artigo03 {
+
+}
