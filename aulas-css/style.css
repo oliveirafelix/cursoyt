@@ -1,29 +1,44 @@
 * {
-    font-family: Ariam   l, Helvetica, sans-serif;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 #topo {
-    background: rgb(34, 34, 34);
+    width: 100vw;
+}
+
+h1 {
+    background-color: #222;
+    color: #ccc;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#links {
+    background-color: #222;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li {
+    list-style: none;
+    margin-top: 15px;
+    transition: 1s ease;
+}
+
+a {
+    font-size: 1.4rem;
+    padding: 15px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+li:hover, a:hover {
     color: white;
-}
-
-#corpo {
-    background: rgb(68, 68, 68);
-    width: 1000px;
-    height: 400px;
-}
-
-#artigo01 {
-    
-}
-
-#artigo02 {
-
-}
-
-#artigo03 {
-
+    transform: scale(1.3);
 }
